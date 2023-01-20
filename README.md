@@ -28,4 +28,3 @@ The script is written in Matlab and requires the Matlab software to be able to r
 
 # Example
 In addition to the script, this repository also includes examples of ATVs' coordinates in CSV files. These files are used as input for the script and provide a demonstration of how the script can be applied to real-world data.
-Additionally, an extra excel file is provided which contains the calculation of metrics that assist in determining which column (x, y, z) corresponds to each axis (X, Y, Z). This file serves as an example of how the script can be used to analyze and understand the data. It is important to note that users should have the necessary software to open and work with csv and excel files.
