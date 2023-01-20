@@ -27,4 +27,4 @@ The final part of the code is cleaning up the variable space, organizing the new
 The script is written in Matlab and requires the Matlab software to be able to run it. It can be run by opening the script in Matlab and clicking the "run" button or by typing the name of the script in the command window and hitting enter. It is important to ensure that all necessary files are in the correct path before running the script.
 
 # Example
-In addition to the script, this repository also includes examples of ATVs' coordinates in CSV files. These files are used as input for the script and provide a demonstration of how the script can be applied to real-world data.
+In addition to the script, this repository also includes [examples](https://github.com/guilhermedemouraa/Vive-Tracker-3-D-Data-Visualization/tree/main/examples) of ATVs' coordinates in CSV files. These files are used as input for the script and provide a demonstration of how the script can be applied to real-world data.
