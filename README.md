@@ -5,11 +5,7 @@ This code is a script that facilitates data visualization for 3-D coordinates ex
 # Purpose
 The main purpose of this script is to perform data translation and rotation on the Vive tracker coordinates to improve the representation of All-Terrain Vehicles (ATVs). This enables the evaluation of machine-rider fit, quantification of rider's field of vision, and many other applications. Check out two of our projects to know more:
 
-### - Project 1 - Ability of youth operators to reach agricultural all-terrain vehicles controls
-
 #### Guilherme De Moura Araujo, Farzaneh Khorsandi & Fadi Fathallah (2022). Ability of youth operators to reach agricultural all-terrain vehicles controls. Journal of Safety Research. [DOI: 10.1016/j.jsr.2022.11.010](https://doi.org/10.1016/j.jsr.2022.11.010)
-
-### - Project 2 - How do children perceive the environment around them when riding adult-sized ATVs on farms?
 
 #### Guilherme De Moura Araujo, Farzaneh Khorsandi & Fadi Fathallah (2022). How do children perceive the environment around them when riding adult-sized ATVs on farms?. Journal of Safety Research [GitHub repo](https://github.com/ucdavis-bae/openFV)
 
