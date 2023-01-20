@@ -9,7 +9,7 @@ The main purpose of this script is to perform data translation and rotation on t
 
 #### Guilherme De Moura Araujo, Farzaneh Khorsandi & Fadi Fathallah (2022). Ability of youth operators to reach agricultural all-terrain vehicles controls. Journal of Safety Research. [DOI: 10.1016/j.jsr.2022.11.010](https://doi.org/10.1016/j.jsr.2022.11.010)
 
-#### Guilherme De Moura Araujo, Farzaneh Khorsandi & Fadi Fathallah (2022). How do children perceive the environment around them when riding adult-sized ATVs on farms?. Journal of Safety Research [GitHub repo](https://github.com/ucdavis-bae/openFV)
+#### Guilherme De Moura Araujo, Farzaneh Khorsandi & Fadi Fathallah (2022). How do children perceive the environment around them when riding adult-sized ATVs on farms? Journal of Safety Research [GitHub repo](https://github.com/ucdavis-bae/openFV)
 
 # Justification
 One of the major problems with HTC's Vive tracker is that its axis system (X, Y, Z) is local, and can change every time you power the device on/off. For this reason, it's practically impossible to assume that Vive's x,y,z coordinates are similar to any system we know (for example, UTM's easting, northing, and altitude). Therefore, we developed this code to establish and reconfigure the coordinate system based on the ATV's orientation. Our goal was to have the X axis along the horizontal axis of the ATV from its top view (i.e., left to right wheels), the Y axis along the vertical axis of the ATV (i.e., left rear to left front wheel), and the Z axis along the ATV's height.
