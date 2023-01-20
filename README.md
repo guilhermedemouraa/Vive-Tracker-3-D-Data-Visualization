@@ -19,6 +19,10 @@ The script begins by adding the necessary files to the path and defining which A
 
 By rotating the data, the script automatically lines up the points in the correct XY plane, i.e., the wheels, seat center, and the handlebar are automatically aligned. After reading all the Excel files, the script begins the process of data translation and rotation. It starts with the backup of data, which is the data of the y and z columns. Then, the script performs the same process again, translating the points, finding angles, making transformations, getting error metrics, and visualizing how the transformation worked.
 
+The second part of the code is mostly for visualizing the data in different ways. The first figure block creates a figure for each ATV in the list, plots the different parts of the ATV (wheels, seat, handlebar, etc.) on the figure and then applies a rotation to align the points based on the assumption that X = x and Y = z. The second figure block creates a 3D plot for each ATV, plots the different parts of the ATV in 3D, and then applies a rotation to align the points based on the assumption that X = x and Y = z.
+
+The final part of the code is cleaning up the variable space, organizing the newly rotated data, and saving the data in a CSV file. First, the code creates an array of strings that indicate the ATV number. Then, it prompts the user to save the newly rotated data in a CSV file using a dialog box. If the user confirms, the code creates a new directory called "Rotated Data" in the directory where the original data is located, and then saves each ATV's coordinates in a separate file with the naming format "ATV number _rot.csv". Finally, the code removes all the variables that are no longer needed from the workspace.
+
 # How to run the code
 The script is written in Matlab and requires the Matlab software to be able to run it. It can be run by opening the script in Matlab and clicking the "run" button or by typing the name of the script in the command window and hitting enter. It is important to ensure that all necessary files are in the correct path before running the script.
 
