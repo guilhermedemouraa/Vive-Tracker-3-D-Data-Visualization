@@ -1,6 +1,8 @@
-# Vive Tracker 3-D Data Visualization on MATLAB
+# Vive Tracker 3-D Data Visualization with MATLAB
 
 This code is a script that facilitates data visualization for 3-D coordinates extracted from HTC's Vive tracker.
+
+![Figure1](https://github.com/guilhermedemouraa/Vive-Tracker-3-D-Data-Visualization/blob/main/examples/data_vis_example.png)
 
 # Purpose
 The main purpose of this script is to perform data translation and rotation on the Vive tracker coordinates to improve the representation of All-Terrain Vehicles (ATVs). This enables the evaluation of machine-rider fit, quantification of rider's field of vision, and many other applications. Check out two of our projects to know more:
